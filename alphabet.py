@@ -6,3 +6,9 @@
 # word_list = ["hamster", "turtle", "cat", "bird"]
 # The code should find "bird" as the word that 
 # would come first alphabetically
+def first_alpha(words):
+    return min(words)
+
+if __name__ == '__main__':
+    word_list = ["hamster", "turtle", "cat", "bird"]
+    print(first_alpha(word_list))
